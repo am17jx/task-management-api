@@ -77,8 +77,8 @@ exports.forgetPassword = catchAsync(async (req, res, next) => {
 
   
  
-const resetURL = `http://127.0.0.1:5500/frontend/reset-password.html?token=${resetToken}`;
-
+const resetURL = `https://euphonious-cat-ee7933.netlify.app/reset-password.html?token=${resetToken}`;
+    
 const message = `نسيت كلمة المرور الخاصة بك؟ اضغط على الرابط التالي لإعادة تعيينها: ${resetURL}\n\nإذا لم تكن أنت من طلب إعادة التعيين، يرجى تجاهل هذا البريد الإلكتروني.`;
    try {
      await sendEmail({
