@@ -2,7 +2,6 @@ const dotenv = require('dotenv');
 const mongoose = require('mongoose');
 
 
-// It's a good practice to handle uncaught exceptions at the top
 process.on('uncaughtException', err => {
   console.log('UNCAUGHT EXCEPTION! 💥 Shutting down...');
   console.log(err.name, err.message);
@@ -28,7 +27,6 @@ const server = app.listen(port, () => {
   console.log(`Server listening on port ${port}`);
 });
 
-// Handle unhandled promise rejections
 process.on('unhandledRejection', err => {
   console.log('UNHANDLED REJECTION! 💥 Shutting down...');
   console.log(err.name, err.message);
