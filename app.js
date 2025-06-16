@@ -14,7 +14,7 @@ app.use(cors());
 app.options('*', cors()); 
 
 
-app.use(express.json()); // للسماح بقراءة بيانات JSON القادمة
+app.use(express.json()); 
 // 1) GLOBAL MIDDLEWARES
 // Set security HTTP headers
 app.use(helmet());
