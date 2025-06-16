@@ -1,8 +1,6 @@
 # Task Management API
 
-<div align="center">
-  <img src="https://raw.githubusercontent.com/am17jx/task-management-api/main/logo.png" alt="API Logo" width="150"/>
-</div>
+
 
 <p align="center">
   <strong>A powerful, secure, and carefully designed API for managing users and their daily tasks.</strong>
