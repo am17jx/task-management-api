@@ -5,21 +5,16 @@ const authMiddleware = require('./../middleware/authMiddleware');
 
 const router = express.Router();
 
-// ------------------- المسارات العامة (يجب أن تكون هنا) -------------------
-// هذه المسارات لا تتطلب تسجيل دخول
+
 router.post('/signup', authController.singup);
 router.post('/login', authController.login);
 router.post('/forgetPassword', authController.forgetPassword);
 router.patch('/resetPassword/:token', authController.resetPassword);
 
-// ------------------- تطبيق الـ Middleware -------------------
-// من هذه النقطة، كل المسارات التالية ستكون محمية وتتطلب تسجيل دخول
 router.use(authMiddleware.protect);
 
-// المسارات المحمية التي تتطلب من المستخدم أن يكون مسجلاً دخوله
 router.patch('/updateMyPassword', authController.updatePassword);
 
-// من هذه النقطة، كل المسارات التالية تتطلب صلاحيات "admin"
 router.use(authMiddleware.restrictTo('admin'));
 
 router
