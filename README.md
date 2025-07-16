@@ -7,7 +7,7 @@
   <br />
   <br />
   
-   <a href="https://euphonious-cat-ee7933.netlify.app/"><strong>Live Deme »</strong></a>
+   <a href="https://creative-entremet-f1eb39.netlify.app/"><strong>Live Deme »</strong></a>
    .
   <a href="#✨-core-features"><strong>Explore Features »</strong></a>
   ·
